@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     dname.testnet.        root.dname.testnet. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        300 ; negative cache ttl
+                        )
+@               IN      NS      dname.testnet.
+dname           IN      A       10.24.7.2
+rin             IN      A       10.24.7.1
+rout            IN      A       10.24.7.129

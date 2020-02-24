@@ -1,0 +1,2 @@
+dhclient
+route add default gw 10.24.7.129 dev eth0
